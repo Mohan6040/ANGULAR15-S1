@@ -8,6 +8,7 @@
         <div class="card-header">
           <img *ngIf="item.gender === 'male'" src="../../../assets/male.png" alt="Male Image" width="50" height="50">
           <img *ngIf="item.gender === 'female'" src="../../../assets/images/female.png" alt="Female Image" width="50" height="50">
+          <div><strong>ID:</strong> {{ item.id}}</div>
           <div class="name">{{ item.firstName }} {{ item.lastName }}</div>
         </div>
         <div class="card-body">
@@ -16,7 +17,12 @@
           <div><strong>City:</strong> {{ item.city }}</div>
           <div><strong>State:</strong> {{ item.state.name }} ({{ item.state.abbreviation }})</div>
           <button (click)="viewOrders(item.orders)">View Orders</button>
-          <button (click)="deleteCustomer(item.id)">Delete</button>
+          <td>
+            
+            <i (click)="deleteCustomer(item.id)" class="fa fa-trash"></i>
+            &nbsp;
+            <a routerLink="/edit/{{item.id}}"><i  class="fa fa-edit"></i></a>
+          </td>
         </div>
       </div>
     </div>

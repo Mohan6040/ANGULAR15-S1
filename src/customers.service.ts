@@ -18,4 +18,12 @@ export class CustomersService {
 
     return this.http.delete(`${this.url}/${id}`)
   }
+  getCustomerById(id:any){
+    return this.http.get(`${this.url}/${id}`);
+
+  }
+  updateCustomerData(id:any,data:any){
+    return this.http.put(`${this.url}/${id}`,data);
+
+  }
 }

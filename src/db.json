@@ -1,7 +1,6 @@
 {
   "customers": [
     {
-      "id": "1",
       "firstName": "ted",
       "lastName": "james",
       "gender": "male",
@@ -11,45 +10,9 @@
         "abbreviation": "AZ",
         "name": "Arizona"
       },
-      "orders": [
-        {
-          "productName": "Basketball",
-          "itemCost": 7.99
-        },
-        {
-          "productName": "Shoes",
-          "itemCost": 199.99
-        }
-      ],
-      "latitude": 33.299,
-      "longitude": -111.963
+      "id": "1"
     },
     {
-      "id": "2",
-      "firstName": "Michelle",
-      "lastName": "Thompson",
-      "gender": "female",
-      "address": "345 Cedar Point Ave.",
-      "city": "Encinitas",
-      "state": {
-        "abbreviation": "CA",
-        "name": "California"
-      },
-      "orders": [
-        {
-          "productName": "Frisbee",
-          "itemCost": 2.99
-        },
-        {
-          "productName": "Hat",
-          "itemCost": 5.99
-        }
-      ],
-      "latitude": 33.037,
-      "longitude": -117.291
-    },
-    {
-      "id": 2,
       "firstName": "Michelle",
       "lastName": "Thompson",
       "gender": "female",
@@ -70,10 +33,10 @@
         }
       ],
       "latitude": 33.037,
-      "longitude": -117.291
+      "longitude": -117.291,
+      "id": "2"
     },
     {
-      "id": 3,
       "firstName": "Zed",
       "lastName": "Bishop",
       "gender": "male",
@@ -98,10 +61,10 @@
         }
       ],
       "latitude": 47.596,
-      "longitude": -122.331
+      "longitude": -122.331,
+      "id": "3"
     },
     {
-      "id": 4,
       "firstName": "Tina",
       "lastName": "Adams",
       "gender": "female",
@@ -122,10 +85,10 @@
         }
       ],
       "latitude": 33.299,
-      "longitude": -111.963
+      "longitude": -111.963,
+      "id": "4"
     },
     {
-      "id": 5,
       "firstName": "Igor",
       "lastName": "Minar",
       "gender": "male",
@@ -146,10 +109,10 @@
         }
       ],
       "latitude": 32.782927,
-      "longitude": -96.806191
+      "longitude": -96.806191,
+      "id": "5"
     },
     {
-      "id": 6,
       "firstName": "Brad",
       "lastName": "Green",
       "gender": "male",
@@ -170,10 +133,10 @@
         }
       ],
       "latitude": 28.384238,
-      "longitude": -81.564103
+      "longitude": -81.564103,
+      "id": "6"
     },
     {
-      "id": 7,
       "firstName": "Misko",
       "lastName": "Hevery",
       "gender": "male",
@@ -198,10 +161,10 @@
         }
       ],
       "latitude": 35.727985,
-      "longitude": -78.797594
+      "longitude": -78.797594,
+      "id": "7"
     },
     {
-      "id": 8,
       "firstName": "Heedy",
       "lastName": "Wahlin",
       "gender": "female",
@@ -222,10 +185,10 @@
         }
       ],
       "latitude": 33.809898,
-      "longitude": -117.918757
+      "longitude": -117.918757,
+      "id": "8"
     },
     {
-      "id": 9,
       "firstName": "John",
       "lastName": "Papa",
       "gender": "male",
@@ -246,10 +209,10 @@
         }
       ],
       "latitude": 28.384238,
-      "longitude": -81.564103
+      "longitude": -81.564103,
+      "id": "9"
     },
     {
-      "id": 10,
       "firstName": "Tonya",
       "lastName": "Smith",
       "gender": "female",
@@ -274,10 +237,10 @@
         }
       ],
       "latitude": 33.762297,
-      "longitude": -84.392953
+      "longitude": -84.392953,
+      "id": "10"
     },
     {
-      "id": 11,
       "firstName": "ward",
       "lastName": "bell",
       "gender": "male",
@@ -288,10 +251,10 @@
         "name": "California"
       },
       "latitude": 34.042552,
-      "longitude": -118.266429
+      "longitude": -118.266429,
+      "id": "11"
     },
     {
-      "id": 12,
       "firstName": "Marcus",
       "lastName": "Hightower",
       "gender": "male",
@@ -301,11 +264,9 @@
         "abbreviation": "TX",
         "name": "Texas"
       },
-      "latitude": 32.782927,
-      "longitude": -96.806191
+      "id": "12"
     },
     {
-      "id": 13,
       "firstName": "Thomas",
       "lastName": "Martin",
       "gender": "male",
@@ -329,11 +290,11 @@
           "itemCost": 7.99
         }
       ],
+      "id": "13",
       "latitude": 40.725037,
       "longitude": -74.004903
     },
     {
-      "id": 14,
       "firstName": "Jean",
       "lastName": "Martin",
       "gender": "female",
@@ -343,11 +304,11 @@
         "abbreviation": "NY",
         "name": "New York"
       },
+      "id": "14",
       "latitude": 40.725037,
       "longitude": -74.004903
     },
     {
-      "id": 15,
       "firstName": "Pinal",
       "lastName": "Dave",
       "gender": "male",
@@ -357,11 +318,11 @@
         "abbreviation": "NY",
         "name": "New York"
       },
+      "id": "15",
       "latitude": 41.028726,
       "longitude": -73.758261
     },
     {
-      "id": 16,
       "firstName": "Robin",
       "lastName": "Cleark",
       "gender": "female",
@@ -371,11 +332,11 @@
         "abbreviation": "NV",
         "name": "Nevada"
       },
+      "id": "16",
       "latitude": 36.091824,
       "longitude": -115.174247
     },
     {
-      "id": 17,
       "firstName": "Fred",
       "lastName": "Roberts",
       "gender": "male",
@@ -385,11 +346,11 @@
         "abbreviation": "TX",
         "name": "Texas"
       },
+      "id": "17",
       "latitude": 29.750163,
       "longitude": -95.362769
     },
     {
-      "id": 18,
       "firstName": "Robyn",
       "lastName": "Flores",
       "gender": "female",
@@ -399,11 +360,11 @@
         "abbreviation": "WA",
         "name": "Washington"
       },
+      "id": "18",
       "latitude": 47.596,
       "longitude": -122.331
     },
     {
-      "id": 19,
       "firstName": "Elaine",
       "lastName": "Jones",
       "gender": "female",
@@ -413,11 +374,11 @@
         "abbreviation": "CAT",
         "name": "Catalonia"
       },
+      "id": "19",
       "latitude": 41.386444,
       "longitude": 2.111988
     },
     {
-      "id": 20,
       "firstName": "Lilija",
       "lastName": "Arnarson",
       "gender": "female",
@@ -427,11 +388,11 @@
         "abbreviation": "IS",
         "name": "Iceland"
       },
+      "id": "20",
       "latitude": 64.120278,
       "longitude": -21.830471
     },
     {
-      "id": 21,
       "firstName": "Laurent",
       "lastName": "Bugnion",
       "gender": "male",
@@ -451,11 +412,11 @@
           "itemCost": 19.99
         }
       ],
+      "id": "21",
       "latitude": 47.341337,
       "longitude": 8.582503
     },
     {
-      "id": 22,
       "firstName": "Gabriel",
       "lastName": "Flores",
       "gender": "male",
@@ -465,17 +426,7 @@
         "abbreviation": "WA",
         "name": "Rio de Janeiro"
       },
-      "latitude": -22.919369,
-      "longitude": -43.181836
-    },
-    {
-      "id": "be10",
-      "firstName": "m",
-      "lastName": "Mohan",
-      "gender": "male",
-      "address": "tpt",
-      "city": "Tirupathi",
-      "state": "Andhra Pradesh"
+      "id": "22"
     }
   ],
   "posts": [

@@ -17,6 +17,8 @@ import { NgModel, FormsModule } from '@angular/forms';
 import { CustomermapComponent } from './customer/customermap/customermap.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { AddcustomerComponent } from './customer/addcustomer/addcustomer.component';
+import { EditcustomerComponent } from './customer/editcustomer/editcustomer.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,7 +30,8 @@ import { AddcustomerComponent } from './customer/addcustomer/addcustomer.compone
     CustomercardComponent,
     CustomerlistComponent,
     CustomermapComponent,
-    AddcustomerComponent
+    AddcustomerComponent,
+    EditcustomerComponent
   ],
   imports: [
     BrowserModule,

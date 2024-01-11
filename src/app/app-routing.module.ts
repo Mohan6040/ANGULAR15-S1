@@ -9,6 +9,7 @@ import { CustomercardComponent } from './customer/customercard/customercard.comp
 import { CustomerlistComponent } from './customer/customerlist/customerlist.component';
 import { CustomermapComponent } from './customer/customermap/customermap.component';
 import { AddcustomerComponent } from './customer/addcustomer/addcustomer.component';
+import { EditcustomerComponent } from './customer/editcustomer/editcustomer.component';
 
 
 
@@ -23,6 +24,7 @@ const routes: Routes = [
   { path: 'listview', component: CustomerlistComponent  },
   { path: 'mapview', component: CustomermapComponent  },
   { path: 'addcustomer', component: AddcustomerComponent  },
+  { path: 'edit/:id', component: EditcustomerComponent },
   
 ];
 
