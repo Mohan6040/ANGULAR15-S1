@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Angular15-s1';
+  customersData: any[] = []; // Define your data structure
+  selectedCustomerOrders: any[] = [];
+  loadOrders(customer: any) {
+    // Implement logic to load orders for the selected customer
+    this.selectedCustomerOrders = customer.orders;
+  }
 }

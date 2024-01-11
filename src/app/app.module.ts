@@ -8,7 +8,15 @@ import { CustomerComponent } from './customer/customer.component';
 import { OrdersComponent } from './orders/orders.component';
 import { AboutComponent } from './about/about.component';
 import { LoginComponent } from './login/login.component';
-
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { CustomercardComponent } from './customer/customercard/customercard.component';
+import { CustomerlistComponent } from './customer/customerlist/customerlist.component';
+import { HttpClientModule } from '@angular/common/http';
+import { NgxPaginationModule } from 'ngx-pagination';
+import { NgModel, FormsModule } from '@angular/forms';
+import { CustomermapComponent } from './customer/customermap/customermap.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { AddcustomerComponent } from './customer/addcustomer/addcustomer.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,11 +24,20 @@ import { LoginComponent } from './login/login.component';
     CustomerComponent,
     OrdersComponent,
     AboutComponent,
-    LoginComponent
+    LoginComponent,
+    CustomercardComponent,
+    CustomerlistComponent,
+    CustomermapComponent,
+    AddcustomerComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule,
+    FormsModule,
+    HttpClientModule,
+    ReactiveFormsModule,
+    NgxPaginationModule
   ],
   providers: [],
   bootstrap: [AppComponent]
