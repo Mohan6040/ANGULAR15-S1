@@ -1,63 +1,65 @@
 <style>
-/* Toolbar Styles */
-.toolbar {
-  position: relative;
-  height: 60px;
-  display: flex;
-  align-items: center;
-  background-color: #1976d2;
-  color: white;
-  font-weight: 600;
-}
-
-.toolbar img {
-  width: 40px;
-  margin: 10px 16px;
-}
-
-.toolbar span {
-  font-size: 1.5rem;
-}
-
-.toolbar .spacer {
-  flex: 1;
-}
-
-.toolbar ul {
-  display: flex;
-  list-style-type: none;
-  padding: 20px;
-  margin: 10px;
-}
-
-.toolbar li {
-  margin-right: 16px;
-}
-
-.toolbar a {
-  color: white;
-  text-decoration: none;
-  font-weight: 600;
-  transition: opacity 0.3s ease-in-out;
-}
-
-.toolbar a:hover {
-  opacity: 0.8;
-}
-
-</style>
+  /* Toolbar Styles */
+  .toolbar {
+    position: relative;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    background-color: #1976d2;
+    color: white;
+    font-weight: 600;
+  }
+  
+  .toolbar img {
+    width: 70px;
+    margin: 0 26px;
+  }
+  
+  .toolbar span {
+    font-size: 1.8rem;
+  }
+  
+  .toolbar .spacer {
+    flex: 1;
+  }
+  
+  .toolbar ul {
+    display: flex;
+    list-style-type: none;
+    padding: 40px;
+    margin: 10px;
+  }
+  
+  .toolbar li {
+    margin-right: 26px;
+  }
+  
+  .toolbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .toolbar a:hover {
+    opacity: 0.8;
+  }
+  
+  </style>
 
 
 <div class="toolbar" role="banner">
-  <img width="40" alt="Customer Management" src="../assets/people.png"/>
+  <img width="40" alt="Customer Management" src="../assets/images/people.png"/>
   <span>Customer Manager</span>
   <div class="spacer"></div>
   <ul class="flex items-center space-x-4">
-    <li><a class="hover:underline" routerLink="/">Customers</a></li>
+    <li><a class="hover:underline" routerLink="/">Home</a></li>
+    <li><a class="hover:underline" routerLink="/customers">Customers</a></li>
     <li><a class="hover:underline" routerLink="/orders">Orders</a></li>
     <li><a class="hover:underline" routerLink="/about">About</a></li>
     <li><a class="hover:underline" routerLink="/login">Login</a></li>
   </ul>
+  
 </div>
-
 <router-outlet></router-outlet> 

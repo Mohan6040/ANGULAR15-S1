@@ -1,0 +1,38 @@
+/* Additional CSS for styling the About section */
+.view {
+    padding: 20px;
+    text-align:center;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  header {
+    background-color: #1976d2;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  h3 {
+    margin: 0;
+  }
+  
+  .info-container {
+    margin-top: 20px;
+  }
+  
+  .row {
+    margin-bottom: 10px;
+  }
+  
+  .col-md-2 {
+    font-weight: bold;
+  }
+  
+  a {
+    color: #1976d2;
+  }
+  
