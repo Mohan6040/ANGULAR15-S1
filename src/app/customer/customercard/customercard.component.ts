@@ -15,6 +15,7 @@ export class CustomercardComponent implements OnInit {
   totalPages: number = 0;
   pages: number[] = [];
   
+  
 
   constructor(private customers: CustomersService) {}
 
@@ -65,4 +66,5 @@ export class CustomercardComponent implements OnInit {
       this.updatePageData();
     }
   }
+  
 }

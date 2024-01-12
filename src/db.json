@@ -22,16 +22,7 @@
         "abbreviation": "CA",
         "name": "California"
       },
-      "orders": [
-        {
-          "productName": "Frisbee",
-          "itemCost": 2.99
-        },
-        {
-          "productName": "Hat",
-          "itemCost": 5.99
-        }
-      ],
+
       "latitude": 33.037,
       "longitude": -117.291,
       "id": "2"
@@ -46,20 +37,7 @@
         "abbreviation": "WA",
         "name": "Washington"
       },
-      "orders": [
-        {
-          "productName": "Boomerang",
-          "itemCost": 29.99
-        },
-        {
-          "productName": "Helmet",
-          "itemCost": 19.99
-        },
-        {
-          "productName": "Kangaroo Saddle",
-          "itemCost": 179.99
-        }
-      ],
+
       "latitude": 47.596,
       "longitude": -122.331,
       "id": "3"
@@ -98,16 +76,7 @@
         "abbreviation": "TX",
         "name": "Texas"
       },
-      "orders": [
-        {
-          "productName": "Bow",
-          "itemCost": 399.99
-        },
-        {
-          "productName": "Arrows",
-          "itemCost": 69.99
-        }
-      ],
+      
       "latitude": 32.782927,
       "longitude": -96.806191,
       "id": "5"
@@ -122,16 +91,7 @@
         "abbreviation": "FL",
         "name": "Florida"
       },
-      "orders": [
-        {
-          "productName": "Baseball",
-          "itemCost": 9.99
-        },
-        {
-          "productName": "Bat",
-          "itemCost": 19.99
-        }
-      ],
+      
       "latitude": 28.384238,
       "longitude": -81.564103,
       "id": "6"
@@ -146,20 +106,7 @@
         "abbreviation": "NC",
         "name": "North Carolina"
       },
-      "orders": [
-        {
-          "productName": "Surfboard",
-          "itemCost": 299.99
-        },
-        {
-          "productName": "Wax",
-          "itemCost": 5.99
-        },
-        {
-          "productName": "Shark Repellent",
-          "itemCost": 15.99
-        }
-      ],
+      
       "latitude": 35.727985,
       "longitude": -78.797594,
       "id": "7"
@@ -174,16 +121,7 @@
         "abbreviation": "CA",
         "name": "California"
       },
-      "orders": [
-        {
-          "productName": "Saddle",
-          "itemCost": 599.99
-        },
-        {
-          "productName": "Riding cap",
-          "itemCost": 79.99
-        }
-      ],
+      
       "latitude": 33.809898,
       "longitude": -117.918757,
       "id": "8"
@@ -198,16 +136,7 @@
         "abbreviation": "FL",
         "name": "Florida"
       },
-      "orders": [
-        {
-          "productName": "Baseball",
-          "itemCost": 9.99
-        },
-        {
-          "productName": "Bat",
-          "itemCost": 19.99
-        }
-      ],
+
       "latitude": 28.384238,
       "longitude": -81.564103,
       "id": "9"
@@ -222,20 +151,7 @@
         "abbreviation": "GA",
         "name": "Georgia"
       },
-      "orders": [
-        {
-          "productName": "Surfboard",
-          "itemCost": 299.99
-        },
-        {
-          "productName": "Wax",
-          "itemCost": 5.99
-        },
-        {
-          "productName": "Shark Repellent",
-          "itemCost": 7.99
-        }
-      ],
+      
       "latitude": 33.762297,
       "longitude": -84.392953,
       "id": "10"
@@ -276,20 +192,7 @@
         "abbreviation": "NY",
         "name": "New York City"
       },
-      "orders": [
-        {
-          "productName": "Car",
-          "itemCost": 42999.99
-        },
-        {
-          "productName": "Wax",
-          "itemCost": 5.99
-        },
-        {
-          "productName": "Shark Repellent",
-          "itemCost": 7.99
-        }
-      ],
+      
       "id": "13",
       "latitude": 40.725037,
       "longitude": -74.004903
@@ -402,16 +305,7 @@
         "abbreviation": "COZ",
         "name": "Canton of Zurick"
       },
-      "orders": [
-        {
-          "productName": "Baseball",
-          "itemCost": 9.99
-        },
-        {
-          "productName": "Bat",
-          "itemCost": 19.99
-        }
-      ],
+      
       "id": "21",
       "latitude": 47.341337,
       "longitude": 8.582503
@@ -441,6 +335,7 @@
       "userId": "2"
     }
   ],
+  
   "comments": [
     {
       "id": "1",
@@ -454,5 +349,148 @@
       "postId": "1",
       "userId": "1"
     }
-  ]
+  ],
+
+ 
+    "ordersList": [
+      {
+        "orders": [
+          {
+            "productName": "Boomerang",
+            "itemCost": 29.99
+          },
+          {
+            "productName": "Helmet",
+            "itemCost": 19.99
+          },
+          {
+            "productName": "Kangaroo Saddle",
+            "itemCost": 179.99
+          }
+        ]
+      },
+      {
+        "orders": [
+          {
+            "productName": "Frisbee",
+            "itemCost": 2.99
+          },
+          {
+            "productName": "Hat",
+            "itemCost": 5.99
+          }
+        ]
+      },
+      {
+        "orders": [
+          {
+            "productName": "Bow",
+            "itemCost": 399.99
+          },
+          {
+            "productName": "Arrows",
+            "itemCost": 69.99
+          }
+        ]
+      },
+      {
+        "orders": [
+          {
+            "productName": "Baseball",
+            "itemCost": 9.99
+          },
+          {
+            "productName": "Bat",
+            "itemCost": 19.99
+          }
+        ]
+      },
+      {
+        "orders": [
+          {
+            "productName": "Surfboard",
+            "itemCost": 299.99
+          },
+          {
+            "productName": "Wax",
+            "itemCost": 5.99
+          },
+          {
+            "productName": "Shark Repellent",
+            "itemCost": 15.99
+          }
+        ]
+      },
+      {
+        "orders": [
+          {
+            "productName": "Saddle",
+            "itemCost": 599.99
+          },
+          {
+            "productName": "Riding cap",
+            "itemCost": 79.99
+          }
+        ]
+      },
+      {
+        "orders": [
+          {
+            "productName": "Baseball",
+            "itemCost": 9.99
+          },
+          {
+            "productName": "Bat",
+            "itemCost": 19.99
+          }
+        ]
+      },
+      {
+        "orders": [
+          {
+            "productName": "Surfboard",
+            "itemCost": 299.99
+          },
+          {
+            "productName": "Wax",
+            "itemCost": 5.99
+          },
+          {
+            "productName": "Shark Repellent",
+            "itemCost": 7.99
+          }
+        ]
+      },
+      {
+        "orders": [
+          {
+            "productName": "Car",
+            "itemCost": 42999.99
+          },
+          {
+            "productName": "Wax",
+            "itemCost": 5.99
+          },
+          {
+            "productName": "Shark Repellent",
+            "itemCost": 7.99
+          }
+        ]
+      },
+      {
+        "orders": [
+          {
+            "productName": "Baseball",
+            "itemCost": 9.99
+          },
+          {
+            "productName": "Bat",
+            "itemCost": 19.99
+          }
+        ]
+      }
+    ]
+ 
+  
+  
 }

@@ -6,6 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  
   customersData: any[] = []; // Define your data structure
   selectedCustomerOrders: any[] = [];
   loadOrders(customer: any) {

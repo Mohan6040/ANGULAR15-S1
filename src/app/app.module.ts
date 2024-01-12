@@ -18,6 +18,9 @@ import { CustomermapComponent } from './customer/customermap/customermap.compone
 import { ReactiveFormsModule } from '@angular/forms';
 import { AddcustomerComponent } from './customer/addcustomer/addcustomer.component';
 import { EditcustomerComponent } from './customer/editcustomer/editcustomer.component';
+import { FilterPipe } from './filter.pipe';
+
+
 
 @NgModule({
   declarations: [
@@ -31,7 +34,8 @@ import { EditcustomerComponent } from './customer/editcustomer/editcustomer.comp
     CustomerlistComponent,
     CustomermapComponent,
     AddcustomerComponent,
-    EditcustomerComponent
+    EditcustomerComponent,
+    FilterPipe
   ],
   imports: [
     BrowserModule,

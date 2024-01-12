@@ -14,7 +14,8 @@ import { EditcustomerComponent } from './customer/editcustomer/editcustomer.comp
 
 
 const routes: Routes = [
-  { path: '', component: WelcomeComponent },
+  { path: '', redirectTo: '/login', pathMatch: 'full' },
+  { path: 'home', component: WelcomeComponent },
   { path: 'customers', component: CustomerComponent },
   { path: 'orders', component: OrdersComponent },
   { path: 'about', component: AboutComponent },

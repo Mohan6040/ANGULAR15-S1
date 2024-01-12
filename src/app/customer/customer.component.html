@@ -1,25 +1,77 @@
+<style>
+  /* Toolbar Styles */
+  .toolbar {
+    position: relative;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    background-color: #1976d2;
+    color: white;
+    font-weight: 600;
+  }
+  
+  .toolbar img {
+    width: 70px;
+    margin: 0 26px;
+  }
+  
+  .toolbar span {
+    font-size: 1.8rem;
+  }
+  
+  .toolbar .spacer {
+    flex: 1;
+  }
+  
+  .toolbar ul {
+    display: flex;
+    list-style-type: none;
+    padding: 40px;
+    margin: 10px;
+  }
+  
+  .toolbar li {
+    margin-right: 26px;
+  }
+  
+  .toolbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .toolbar a:hover {
+    opacity: 0.8;
+  }
+  
+  </style>
+
+
+<div class="toolbar" role="banner">
+  <img width="40" alt="Customer Management" src="../assets/images/people.png"/>
+  <span>Customer Manager</span>
+  <div class="spacer"></div>
+  <ul class="flex items-center space-x-4">
+    <li><a class="hover:underline" routerLink="/home">Home</a></li>
+    <li><a class="hover:underline" routerLink="/cardview">Customers</a></li>
+    <li><a class="hover:underline" routerLink="/orders">Orders</a></li>
+    <li><a class="hover:underline" routerLink="/about">About</a></li>
+    <li><a class="hover:underline" routerLink="/login">Logout</a></li>
+  </ul>
+  
+</div>
 
 <div class="bg-white p-4">
     <div class="flex items-center justify-between">
       <div class="flex items-center space-x-4">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          class="text-gray-600 h-6 w-6"
-        >
-          <circle cx="12" cy="5" r="1"></circle>
-          <path d="m9 20 3-6 3 6"></path>
-          <path d="m6 8 6 2 6-2"></path>
-          <path d="M12 10v4"></path>
+        <h1 class="text-xl font-semibold" style="text-align: center;"><svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+          <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+          <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
         </svg>
-        <h1 class="text-xl font-semibold">Customers</h1>
+        &nbsp;
+        CUSTOMERS</h1>
       </div>
       <div class="flex items-center space-x-2">
         <a href="/cardview" class="button-link">
@@ -45,7 +97,7 @@
             </svg>
             <span>Card View</span>
           </button>
-        </a>
+        </a>&nbsp;
         <a href="/listview" class="button-link">
           <button
             class="justify-center text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:text-accent-foreground h-10 px-4 py-2 flex items-center space-x-1"
@@ -71,7 +123,7 @@
             </svg>
             <span>List View</span>
           </button>
-        </a>
+        </a>&nbsp;
         <a href="/mapview" class="button-link">
           <button
             class="justify-center text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:text-accent-foreground h-10 px-4 py-2 flex items-center space-x-1"
@@ -96,7 +148,7 @@
             </svg>
             <span>Map View</span>
           </button>
-        </a> 
+        </a> &nbsp;
         <a href="/addcustomer" class="button-link">
           <button
             class="justify-center text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2 flex items-center space-x-1"
@@ -118,7 +170,7 @@
             </svg>
             <span>New Customer</span>
           </button>
-        </a>
+        </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <span class="text-sm font-medium">Filter:</span>
         <input
           class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
