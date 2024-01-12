@@ -8,6 +8,7 @@ import { CustomersService } from 'src/customers.service';
   styleUrls: ['./addcustomer.component.css']
 })
 export class AddcustomerComponent implements OnInit{
+gender: any;
 
   constructor(private customer: CustomersService){}
   addCustomer=new FormGroup({

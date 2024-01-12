@@ -33,6 +33,15 @@ export class CustomercardComponent implements OnInit {
       // console.log(result);
       this.ngOnInit();
       
+      const userConfirmed = window.confirm("Do you want to delete the customer?");
+  
+      if (userConfirmed) {
+        alert("Customer deleted successfully!");
+        // Perform the delete operation or call the deleteCustomer function here
+      } else {
+        alert("Deletion canceled.");
+      }
+    
     });
 
   }

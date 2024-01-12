@@ -23,6 +23,7 @@ export class CustomersService {
   deleteCustomer(id: any): Observable<any> {
     return this.http.delete<any>(`${this.apiUrl}/${id}`);
   }
+  
 
   getCustomerById(id: any): Observable<any> {
     return this.http.get<any>(`${this.apiUrl}/${id}`);
